@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "graphql.vscode-graphql",
+    "graphql.vscode-graphql-syntax",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "zixuanchen.vitest-explorer"
+  ]
+}

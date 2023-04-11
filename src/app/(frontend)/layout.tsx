@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import { Footer } from '~/layouts/Footer';
 import { Navigation } from '~/layouts/Navigation';
-import '../styles/globals.css';
+import '../../styles/globals.css';
 
 const inter = Inter({
   variable: '--font-inter',

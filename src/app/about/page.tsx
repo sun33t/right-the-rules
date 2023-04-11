@@ -1,9 +1,9 @@
 import { Heading } from '~/components/ui/Heading';
 
-export default function Home() {
+export default function About() {
   return (
     <div className="grid h-full place-items-center bg-blue-100">
-      <Heading>Main Page</Heading>
+      <Heading>About Page</Heading>
     </div>
   );
 }

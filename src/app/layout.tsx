@@ -1,4 +1,6 @@
 import { Inter } from 'next/font/google';
+import { Footer } from '~/layouts/Footer';
+import { Navigation } from '~/layouts/Navigation';
 import '../styles/globals.css';
 
 const inter = Inter({
@@ -19,7 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable}`}>
-      <body>{children}</body>
+      <body className="grid h-screen grid-rows-[auto_1fr_auto]">
+        <Navigation />
+        <main className="bg-yellow-100 px-4">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
